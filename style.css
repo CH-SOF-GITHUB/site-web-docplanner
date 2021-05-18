@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+header img{
+    width: 268px;
+    height: 33px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    top: 0;
+    background-color: white;
+}
+.menu{
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+}
+.menu-item{
+    margin-right: 20px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 30px;
+    color: rgb(171, 171, 171);
+}
+.menu-item:hover{
+    color:rgb(0, 179, 155);
+}
+.drop-menu{
+    display: none;
+    width: 200px;
+    margin-left: -37px;
+    list-style-type: none;
+    background-color: white;
+}
+.menu-item:hover .drop-menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;     
+}
+.drop-menu-item{
+    color:#ababab;
+}
+.drop-menu-item:hover{
+    color:rgb(0, 179, 155);
+}
+.first-section{
+    padding-top: 150px;
+    text-align: center;
+}
+.first-section h1{
+    font:300 34px "Work Sans", Arial, sans-serif;
+    line-height: 44.2px;
+    color: rgb(0, 179, 155);
+}
+.second-section{
+    display: flex;
+    justify-content: space-between;
+    margin:0px 450px;
+}
+.second-section p {
+    width: 48%;
+    font:400 16px Roboto, Arial, sans-serif;
+    line-height: 28px;
+    color: rgb(116, 116, 116);
+    text-align: justify;
+} 
+.third-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.third-section div{
+    margin-right: 20px;
+}
+.third-section h1{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 400px;
+    line-height: 33.8px;
+    color: rgb(255, 255, 255);
+}
+.third-section p{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300px;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255);
+}
+.patients{
+    background-color:#1AD1B9;
+    width: 312px;
+    height: 345px;  
+    padding: 30px; 
+    border-radius: 10px;
+}
+.doctors{
+    background-color: #3D83DF;
+    width: 312px;
+    height: 345px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.clinics{
+    background-color: #313C48;
+    width: 312px;
+    height: 345px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.third-section select{
+    display: flex;
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+    font-family:Roboto, Arial, sans-serif;
+    font-size: 20.2px;
+    font-weight: 400px;
+    color: rgb(255, 255, 255);
+    margin-top: 0.5em;
+}
+.third-section option{
+    background-color: white;
+    color: black;
+}
+.fourth-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 400px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.fourth-section h1{
+    font-family:300 26px "Work Sans", Arial, sans-serif;
+    line-height: 33.8px;
+    color: rgb(0, 179, 155);
+    width: 161.75px;
+    height: 99px;
+    margin-right: 100px;
+}
+.icons{
+    margin-top: 29px;
+    width: 900px;
+}
+.icons i{
+    margin-right: 10px;
+    color:#ababab;
+}
+.icons i:hover{
+    color:rgb(0, 179, 155);
+}
+.fifth-section{
+    height: 600px;
+    width: 100%;
+    background-color: #D6F5F5;
+    background-image: url("https://www.docplanner.com/img/logo.png");
+    background-repeat: no-repeat;
+    position: relative;
+    background-position-x: 400px;
+    background-position-y: 250px;
+    margin-top: 40px;
+    z-index: -1;
+}
+.fifth-section h1{
+    font:300 34px "Work Sans", Arial, sans-serif;
+    line-height: 44.2px;
+    color: rgb(0, 179, 155);
+    position: absolute;
+    width: 400px;
+    top: 30px;
+    left: 540px;
+}
+.fifth-section p{
+    font:400 14px Roboto, Arial, sans-serif;
+    line-height: 24px;
+    color: rgb(116, 116, 116);
+    position: relative;
+    width: 400px;
+    top: 170px;
+    left: 540px;
+}
+.table{
+    position: absolute;
+    right: 300px;
+    display: flex;
+    color: rgb(0, 179, 155);
+    font:100 16px "Work Sans", Arial, sans-serif;
+}
+.column-one{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.column-two{
+    display: flex;
+    flex-direction: column;
+    
+}
+.column-one div{
+    background-color: white;
+    margin-top: 15px;
+    width: 228px;
+    height: 200px;
+    text-align: center;
+    padding: 15px;
+}
+.column-two div{
+    background-color: white;
+    margin-top: 15px;
+    width: 228px;
+    height: 200px;
+    text-align: center;
+    padding: 15px;
+}
+.column-one h6{
+    color: #ababab;
+}
+.column-two h6 {
+    color: #ababab;
+}
+.sixth-section {
+    text-align: center;
+}
+.sixth-section{
+    margin-top: 150px;
+    width: 100%;
+    height: 100%;
+}
+.sixth-section h1{
+    font:300 30px "Work Sans", Arial, sans-serif;
+    line-height: 39px;
+    color: rgb(0, 179, 155);
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sixth-section h4{
+    font:400 14px Roboto, Arial, sans-serif;
+    line-height: 24px;
+    color: rgb(116, 116, 116);
+    width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.seven-section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;   
+}
+.seven-section img{
+    height: 279px;
+    width: 309px;
+    border-radius: 7px;
+    background-repeat: no-repeat;
+}
+.seven-section .bloc {
+    background-color: white;
+    height: 363px;
+    width: 310px;
+    margin-right: 15px;
+    margin-top: 25px;
+    padding-right: 60px;
+    font-family:400 25px Roboto, Arial, sans-serif;
+    line-height: 30px;
+    color: rgb(116, 116, 116);
+}
+.seven-section .bloc:hover{
+    border: 0.5px solid #f7f1f1;
+    box-shadow:3px 3px 3px #ababab;
+}
+.seven-section input{
+    height: 29.6px;
+    width: 112.5px;
+    background-color: #3D83DF;
+    font:700 10px Roboto, Arial, sans-serif;
+    line-height: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.seven-section input:hover{
+    background-color: #08578b;
+}
+.eight-section{
+    padding-top: 65px;
+    text-align: center;
+}
+.eight-section h1{
+    font:300 30px "Work Sans", Arial, sans-serif;
+    line-height: 39px;
+    color: rgb(51, 51, 51);
+}
+.eight-section input{
+    height: 40px;
+    width: 210.4px;
+    font:700 12px Roboto, Arial, sans-serif;
+    line-height: 12px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    border: none;
+    background-color: #3D83DF;
+    border-radius: 5px;
+}
+.eight-section input:hover{
+    background-color: #08578b;
+}
+footer {
+    padding-top: 100px;
+    text-align: center;
+}
+footer h1{
+    font:400 12px Roboto, Arial, sans-serif;
+    line-height: 15.6px;
+    color: rgb(171, 171, 171);
+}
+footer p{
+    display: inline;
+    color:rgb(61, 131, 223);
+}
+footer p:hover{
+    text-decoration: underline;
+}
